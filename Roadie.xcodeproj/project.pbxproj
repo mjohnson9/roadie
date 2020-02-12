@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CC27C5E23F4C1A7004F4676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */; };
+		4CC27C6023F4C1A7004F4676 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */; };
+		4CC27C6323F4C1A7004F4676 /* Roadie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */; };
+		4CC27C6523F4C1A7004F4676 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6423F4C1A7004F4676 /* ContentView.swift */; };
+		4CC27C6723F4C1AA004F4676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6623F4C1AA004F4676 /* Assets.xcassets */; };
+		4CC27C6A23F4C1AA004F4676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6923F4C1AA004F4676 /* Preview Assets.xcassets */; };
+		4CC27C6D23F4C1AA004F4676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */; };
+		4CC27C7823F4C1AA004F4676 /* RoadieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C7723F4C1AA004F4676 /* RoadieTests.swift */; };
+		4CC27C8323F4C1AA004F4676 /* RoadieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C8223F4C1AA004F4676 /* RoadieUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CC27C7423F4C1AA004F4676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CC27C5223F4C1A7004F4676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CC27C5923F4C1A7004F4676;
+			remoteInfo = Roadie;
+		};
+		4CC27C7F23F4C1AA004F4676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CC27C5223F4C1A7004F4676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CC27C5923F4C1A7004F4676;
+			remoteInfo = Roadie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CC27C5A23F4C1A7004F4676 /* Roadie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roadie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CC27C6223F4C1A7004F4676 /* Roadie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roadie.xcdatamodel; sourceTree = "<group>"; };
+		4CC27C6423F4C1A7004F4676 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CC27C6623F4C1AA004F4676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CC27C6923F4C1AA004F4676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CC27C6C23F4C1AA004F4676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CC27C6E23F4C1AA004F4676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC27C7323F4C1AA004F4676 /* RoadieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC27C7723F4C1AA004F4676 /* RoadieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadieTests.swift; sourceTree = "<group>"; };
+		4CC27C7923F4C1AA004F4676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC27C7E23F4C1AA004F4676 /* RoadieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC27C8223F4C1AA004F4676 /* RoadieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadieUITests.swift; sourceTree = "<group>"; };
+		4CC27C8423F4C1AA004F4676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CC27C5723F4C1A7004F4676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC27C7023F4C1AA004F4676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC27C7B23F4C1AA004F4676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CC27C5123F4C1A7004F4676 = {
+			isa = PBXGroup;
+			children = (
+				4CC27C5C23F4C1A7004F4676 /* Roadie */,
+				4CC27C7623F4C1AA004F4676 /* RoadieTests */,
+				4CC27C8123F4C1AA004F4676 /* RoadieUITests */,
+				4CC27C5B23F4C1A7004F4676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CC27C5B23F4C1A7004F4676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CC27C5A23F4C1A7004F4676 /* Roadie.app */,
+				4CC27C7323F4C1AA004F4676 /* RoadieTests.xctest */,
+				4CC27C7E23F4C1AA004F4676 /* RoadieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CC27C5C23F4C1A7004F4676 /* Roadie */ = {
+			isa = PBXGroup;
+			children = (
+				4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */,
+				4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */,
+				4CC27C6423F4C1A7004F4676 /* ContentView.swift */,
+				4CC27C6623F4C1AA004F4676 /* Assets.xcassets */,
+				4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */,
+				4CC27C6E23F4C1AA004F4676 /* Info.plist */,
+				4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */,
+				4CC27C6823F4C1AA004F4676 /* Preview Content */,
+			);
+			path = Roadie;
+			sourceTree = "<group>";
+		};
+		4CC27C6823F4C1AA004F4676 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CC27C6923F4C1AA004F4676 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CC27C7623F4C1AA004F4676 /* RoadieTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CC27C7723F4C1AA004F4676 /* RoadieTests.swift */,
+				4CC27C7923F4C1AA004F4676 /* Info.plist */,
+			);
+			path = RoadieTests;
+			sourceTree = "<group>";
+		};
+		4CC27C8123F4C1AA004F4676 /* RoadieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CC27C8223F4C1AA004F4676 /* RoadieUITests.swift */,
+				4CC27C8423F4C1AA004F4676 /* Info.plist */,
+			);
+			path = RoadieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CC27C5923F4C1A7004F4676 /* Roadie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC27C8723F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "Roadie" */;
+			buildPhases = (
+				4CC27C5623F4C1A7004F4676 /* Sources */,
+				4CC27C5723F4C1A7004F4676 /* Frameworks */,
+				4CC27C5823F4C1A7004F4676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roadie;
+			productName = Roadie;
+			productReference = 4CC27C5A23F4C1A7004F4676 /* Roadie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CC27C7223F4C1AA004F4676 /* RoadieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC27C8A23F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "RoadieTests" */;
+			buildPhases = (
+				4CC27C6F23F4C1AA004F4676 /* Sources */,
+				4CC27C7023F4C1AA004F4676 /* Frameworks */,
+				4CC27C7123F4C1AA004F4676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CC27C7523F4C1AA004F4676 /* PBXTargetDependency */,
+			);
+			name = RoadieTests;
+			productName = RoadieTests;
+			productReference = 4CC27C7323F4C1AA004F4676 /* RoadieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CC27C7D23F4C1AA004F4676 /* RoadieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC27C8D23F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "RoadieUITests" */;
+			buildPhases = (
+				4CC27C7A23F4C1AA004F4676 /* Sources */,
+				4CC27C7B23F4C1AA004F4676 /* Frameworks */,
+				4CC27C7C23F4C1AA004F4676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CC27C8023F4C1AA004F4676 /* PBXTargetDependency */,
+			);
+			name = RoadieUITests;
+			productName = RoadieUITests;
+			productReference = 4CC27C7E23F4C1AA004F4676 /* RoadieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CC27C5223F4C1A7004F4676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Michael Johnson";
+				TargetAttributes = {
+					4CC27C5923F4C1A7004F4676 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					4CC27C7223F4C1AA004F4676 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4CC27C5923F4C1A7004F4676;
+					};
+					4CC27C7D23F4C1AA004F4676 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4CC27C5923F4C1A7004F4676;
+					};
+				};
+			};
+			buildConfigurationList = 4CC27C5523F4C1A7004F4676 /* Build configuration list for PBXProject "Roadie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CC27C5123F4C1A7004F4676;
+			productRefGroup = 4CC27C5B23F4C1A7004F4676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CC27C5923F4C1A7004F4676 /* Roadie */,
+				4CC27C7223F4C1AA004F4676 /* RoadieTests */,
+				4CC27C7D23F4C1AA004F4676 /* RoadieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CC27C5823F4C1A7004F4676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC27C6D23F4C1AA004F4676 /* LaunchScreen.storyboard in Resources */,
+				4CC27C6A23F4C1AA004F4676 /* Preview Assets.xcassets in Resources */,
+				4CC27C6723F4C1AA004F4676 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC27C7123F4C1AA004F4676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC27C7C23F4C1AA004F4676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CC27C5623F4C1A7004F4676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC27C5E23F4C1A7004F4676 /* AppDelegate.swift in Sources */,
+				4CC27C6323F4C1A7004F4676 /* Roadie.xcdatamodeld in Sources */,
+				4CC27C6523F4C1A7004F4676 /* ContentView.swift in Sources */,
+				4CC27C6023F4C1A7004F4676 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC27C6F23F4C1AA004F4676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC27C7823F4C1AA004F4676 /* RoadieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC27C7A23F4C1AA004F4676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC27C8323F4C1AA004F4676 /* RoadieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CC27C7523F4C1AA004F4676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CC27C5923F4C1A7004F4676 /* Roadie */;
+			targetProxy = 4CC27C7423F4C1AA004F4676 /* PBXContainerItemProxy */;
+		};
+		4CC27C8023F4C1AA004F4676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CC27C5923F4C1A7004F4676 /* Roadie */;
+			targetProxy = 4CC27C7F23F4C1AA004F4676 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC27C6C23F4C1AA004F4676 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CC27C8523F4C1AA004F4676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CC27C8623F4C1AA004F4676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CC27C8823F4C1AA004F4676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Roadie/Preview Content\"";
+				DEVELOPMENT_TEAM = WW5885E694;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Roadie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = roadie.Roadie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CC27C8923F4C1AA004F4676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Roadie/Preview Content\"";
+				DEVELOPMENT_TEAM = WW5885E694;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Roadie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = roadie.Roadie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CC27C8B23F4C1AA004F4676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WW5885E694;
+				INFOPLIST_FILE = RoadieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = roadie.RoadieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roadie.app/Roadie";
+			};
+			name = Debug;
+		};
+		4CC27C8C23F4C1AA004F4676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WW5885E694;
+				INFOPLIST_FILE = RoadieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = roadie.RoadieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roadie.app/Roadie";
+			};
+			name = Release;
+		};
+		4CC27C8E23F4C1AA004F4676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WW5885E694;
+				INFOPLIST_FILE = RoadieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = roadie.RoadieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Roadie;
+			};
+			name = Debug;
+		};
+		4CC27C8F23F4C1AA004F4676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WW5885E694;
+				INFOPLIST_FILE = RoadieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = roadie.RoadieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Roadie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CC27C5523F4C1A7004F4676 /* Build configuration list for PBXProject "Roadie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC27C8523F4C1AA004F4676 /* Debug */,
+				4CC27C8623F4C1AA004F4676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC27C8723F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "Roadie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC27C8823F4C1AA004F4676 /* Debug */,
+				4CC27C8923F4C1AA004F4676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC27C8A23F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "RoadieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC27C8B23F4C1AA004F4676 /* Debug */,
+				4CC27C8C23F4C1AA004F4676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC27C8D23F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "RoadieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC27C8E23F4C1AA004F4676 /* Debug */,
+				4CC27C8F23F4C1AA004F4676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CC27C6223F4C1A7004F4676 /* Roadie.xcdatamodel */,
+			);
+			currentVersion = 4CC27C6223F4C1A7004F4676 /* Roadie.xcdatamodel */;
+			path = Roadie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CC27C5223F4C1A7004F4676 /* Project object */;
+}
