@@ -16,6 +16,8 @@
 		4CC27C6D23F4C1AA004F4676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */; };
 		4CC27C7823F4C1AA004F4676 /* RoadieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C7723F4C1AA004F4676 /* RoadieTests.swift */; };
 		4CC27C8323F4C1AA004F4676 /* RoadieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C8223F4C1AA004F4676 /* RoadieUITests.swift */; };
+		4CECE35323FE01940015100C /* ActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CECE35223FE01940015100C /* ActionButtonStyle.swift */; };
+		4CECE35623FE06CC0015100C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CECE35523FE06CC0015100C /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		4CC27C7E23F4C1AA004F4676 /* RoadieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC27C8223F4C1AA004F4676 /* RoadieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadieUITests.swift; sourceTree = "<group>"; };
 		4CC27C8423F4C1AA004F4676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CECE35223FE01940015100C /* ActionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonStyle.swift; sourceTree = "<group>"; };
+		4CECE35423FE06550015100C /* Things to do.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Things to do.md"; sourceTree = "<group>"; };
+		4CECE35523FE06CC0015100C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,7 @@
 				4CC27C6E23F4C1AA004F4676 /* Info.plist */,
 				4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */,
 				4CC27C6823F4C1AA004F4676 /* Preview Content */,
+				4CECE35423FE06550015100C /* Things to do.md */,
 			);
 			path = Roadie;
 			sourceTree = "<group>";
@@ -142,9 +148,19 @@
 		4CC27C9023F4C3F2004F4676 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4CECE35123FE01770015100C /* Components */,
 				4CC27C6423F4C1A7004F4676 /* LoginView.swift */,
+				4CECE35523FE06CC0015100C /* SignUpView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4CECE35123FE01770015100C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4CECE35223FE01940015100C /* ActionButtonStyle.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +295,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC27C5E23F4C1A7004F4676 /* AppDelegate.swift in Sources */,
+				4CECE35323FE01940015100C /* ActionButtonStyle.swift in Sources */,
 				4CC27C6323F4C1A7004F4676 /* Roadie.xcdatamodeld in Sources */,
 				4CC27C6523F4C1A7004F4676 /* LoginView.swift in Sources */,
+				4CECE35623FE06CC0015100C /* SignUpView.swift in Sources */,
 				4CC27C6023F4C1A7004F4676 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
