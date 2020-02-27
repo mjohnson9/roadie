@@ -28,14 +28,14 @@ struct SignUpView: View {
 					SecureField("Password", text: self.$password)
 				}
 
-				Section(header: Text("Personal Information")) {
+                Section(header: Text("Personal Information")) {
 					TextField("First Name", text: self.$firstName)
 					TextField("Last Name", text: self.$lastName)
 					TextField("Phone Number", value: self.$phoneNumber, formatter: NumberFormatter())
 				}
 
 				Section(header: Text("Driver's License")) {
-					TextField("Driver's License Number", text: self.$DLNumber, formatter: NumberFormatter())
+					TextField("Driver's License Number", value: self.$DLNumber, formatter: NumberFormatter())
 				}
 			}
 		}
