@@ -1,0 +1,18 @@
+{
+	"repositoryUrl": "https://github.com/mjohnson9/roadie_ios.git",
+	"preset": "conventionalcommits",
+	"plugins": [
+		"@semantic-release/commit-analyzer",
+		"@semantic-release/release-notes-generator",
+		["@semantic-release/changelog", {
+			"changelogFile": "CHANGELOG.md",
+		}],
+		["@semantic-release/exec", {
+			"prepareCmd": "plutil -replace CFBundleVersion -string '${nextRelease.version}' Roadie/Info.plist RoadieTests/Info.plist RoadieUITests/Info.plist; plutil -replace CFBundleShortVersionString -string '${nextRelease.version}' Roadie/Info.plist RoadieTests/Info.plist RoadieUITests/Info.plist"
+		}],
+		["@semantic-release/git", {
+			"assets": ["CHANGELOG.md", "Roadie/Info.plist", "RoadieTests/Info.plist", "RoadieUITests/Info.plist"],
+			"message": "chore(release): Bumped to v${nextRelease.version}\n\n${nextRelease.notes}"
+		}],
+	]
+}
