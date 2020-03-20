@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C90678624107CA0005A0116 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4C90678524107CA0005A0116 /* swiftgen.yml */; };
+		4C9067892410802A005A0116 /* Generated in Resources */ = {isa = PBXBuildFile; fileRef = 4C9067882410802A005A0116 /* Generated */; };
+		4C90678C24108A7F005A0116 /* Colors.clr in Resources */ = {isa = PBXBuildFile; fileRef = 4C90678B24108A7F005A0116 /* Colors.clr */; };
 		4CC27C5E23F4C1A7004F4676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */; };
 		4CC27C6023F4C1A7004F4676 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */; };
 		4CC27C6323F4C1A7004F4676 /* Roadie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */; };
 		4CC27C6523F4C1A7004F4676 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6423F4C1A7004F4676 /* LoginView.swift */; };
-		4CC27C6723F4C1AA004F4676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6623F4C1AA004F4676 /* Assets.xcassets */; };
-		4CC27C6A23F4C1AA004F4676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6923F4C1AA004F4676 /* Preview Assets.xcassets */; };
+		4CC27C6723F4C1AA004F4676 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6623F4C1AA004F4676 /* Images.xcassets */; };
 		4CC27C6D23F4C1AA004F4676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */; };
 		4CC27C7823F4C1AA004F4676 /* RoadieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C7723F4C1AA004F4676 /* RoadieTests.swift */; };
 		4CC27C8323F4C1AA004F4676 /* RoadieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C8223F4C1AA004F4676 /* RoadieUITests.swift */; };
@@ -60,13 +62,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C90678524107CA0005A0116 /* swiftgen.yml */ = {isa = PBXFileReference; explicitFileType = text.yaml; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = swiftgen.yml; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
+		4C9067882410802A005A0116 /* Generated */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Generated; sourceTree = "<group>"; };
+		4C90678B24108A7F005A0116 /* Colors.clr */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Colors.clr; sourceTree = "<group>"; };
 		4CC27C5A23F4C1A7004F4676 /* Roadie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roadie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4CC27C6223F4C1A7004F4676 /* Roadie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roadie.xcdatamodel; sourceTree = "<group>"; };
-		4CC27C6423F4C1A7004F4676 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		4CC27C6623F4C1AA004F4676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4CC27C6923F4C1AA004F4676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CC27C6423F4C1A7004F4676 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4CC27C6623F4C1AA004F4676 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CC27C6C23F4C1AA004F4676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CC27C6E23F4C1AA004F4676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CC27C7323F4C1AA004F4676 /* RoadieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +120,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C90678724107CC4005A0116 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C90678B24108A7F005A0116 /* Colors.clr */,
+				4CC27C6623F4C1AA004F4676 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		4CC27C5123F4C1A7004F4676 = {
 			isa = PBXGroup;
 			children = (
@@ -145,22 +158,14 @@
 				4CC27C9023F4C3F2004F4676 /* Views */,
 				4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */,
 				4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */,
-				4CC27C6623F4C1AA004F4676 /* Assets.xcassets */,
-				4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */,
+				4C90678724107CC4005A0116 /* Resources */,
+				4C9067882410802A005A0116 /* Generated */,
 				4CC27C6E23F4C1AA004F4676 /* Info.plist */,
 				4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */,
-				4CC27C6823F4C1AA004F4676 /* Preview Content */,
 				4CECE35423FE06550015100C /* Things to do.md */,
+				4C90678524107CA0005A0116 /* swiftgen.yml */,
 			);
 			path = Roadie;
-			sourceTree = "<group>";
-		};
-		4CC27C6823F4C1AA004F4676 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4CC27C6923F4C1AA004F4676 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		4CC27C7623F4C1AA004F4676 /* RoadieTests */ = {
@@ -184,6 +189,7 @@
 		4CC27C9023F4C3F2004F4676 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */,
 				4CECE35123FE01770015100C /* Components */,
 				4CC27C6423F4C1A7004F4676 /* LoginView.swift */,
 				4CECE35523FE06CC0015100C /* SignUpView.swift */,
@@ -222,6 +228,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CC27C8723F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "Roadie" */;
 			buildPhases = (
+				4C90678D24108DCE005A0116 /* Run swiftlint */,
+				4C90678A24108164005A0116 /* Generate SwiftUI Assets from xcassets */,
 				4CC27C5623F4C1A7004F4676 /* Sources */,
 				4CC27C5723F4C1A7004F4676 /* Frameworks */,
 				4CC27C5823F4C1A7004F4676 /* Resources */,
@@ -342,8 +350,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC27C6D23F4C1AA004F4676 /* LaunchScreen.storyboard in Resources */,
-				4CC27C6A23F4C1AA004F4676 /* Preview Assets.xcassets in Resources */,
-				4CC27C6723F4C1AA004F4676 /* Assets.xcassets in Resources */,
+				4C9067892410802A005A0116 /* Generated in Resources */,
+				4C90678624107CA0005A0116 /* swiftgen.yml in Resources */,
+				4C90678C24108A7F005A0116 /* Colors.clr in Resources */,
+				4CC27C6723F4C1AA004F4676 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +372,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C90678A24108164005A0116 /* Generate SwiftUI Assets from xcassets */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate SwiftUI Assets from xcassets";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "exec \"$PROJECT_DIR\"/swiftgen/bin/swiftgen config run --config \"$PROJECT_DIR\"/\"$TARGET_NAME\"/swiftgen.yml\n";
+			showEnvVarsInLog = 0;
+		};
+		4C90678D24108DCE005A0116 /* Run swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"error: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CC27C5623F4C1A7004F4676 /* Sources */ = {
@@ -484,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -538,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

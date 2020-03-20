@@ -14,7 +14,7 @@ struct SignUpView: View {
 
 	@State private var firstName = ""
 	@State private var lastName = ""
-	@State private var phoneNumber = 0
+    @State private var phoneNumber: Int? = nil
 
 	@State private var DLNumber = ""
 	@State private var DLIssueDate = ""
