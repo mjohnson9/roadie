@@ -1,0 +1,14 @@
+#colors:
+#  inputs:
+#    Resources/Colors.clr
+#  outputs:
+#    - templateName: swift4
+#      params:
+#        enumName: RoadieColors
+#      output: Generated/assets-colors.swift
+xcassets:
+  inputs:
+    Resources/Images.xcassets
+  outputs:
+    - templateName: swift4
+      output: Generated/assets-images.swift

@@ -13,20 +13,18 @@ struct LoginView: View {
     @State private var password = ""
 
     var body: some View {
-        NavigationView {
-            Form {
-                TextField("Email", text: self.$email)
-                SecureField("Password", text: self.$password)
-                HStack {
-                    Button("Login", action: {
-                        self.attemptLogin(username: self.email, password: self.password)
-                    })
-                    Spacer()
-                    Button("Sign Up", action: {})
-                }
+        Form {
+            TextField("Email", text: self.$email)
+            SecureField("Password", text: self.$password)
+            HStack {
+                Button("Login", action: {
+                    self.attemptLogin(username: self.email, password: self.password)
+                })
+                Spacer()
+                Button("Sign Up", action: {})
             }
-            .navigationBarTitle(Text("Login"))
         }
+        .navigationBarTitle(Text("Login"))
     }
 
     func attemptLogin(username: String, password: String) {
@@ -36,6 +34,8 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        NavigationView {
+            LoginView()
+        }
     }
 }
