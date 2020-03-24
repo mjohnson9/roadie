@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,7 @@
 		4CC27C6023F4C1A7004F4676 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */; };
 		4CC27C6323F4C1A7004F4676 /* Roadie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */; };
 		4CC27C6523F4C1A7004F4676 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6423F4C1A7004F4676 /* LoginView.swift */; };
-		4CC27C6723F4C1AA004F4676 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6623F4C1AA004F4676 /* Images.xcassets */; };
+		4CC27C6723F4C1AA004F4676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6623F4C1AA004F4676 /* Assets.xcassets */; };
 		4CC27C6D23F4C1AA004F4676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */; };
 		4CC27C7823F4C1AA004F4676 /* RoadieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C7723F4C1AA004F4676 /* RoadieTests.swift */; };
 		4CC27C8323F4C1AA004F4676 /* RoadieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C8223F4C1AA004F4676 /* RoadieUITests.swift */; };
@@ -38,6 +38,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4C8892EF242A7D6A005A0B5F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4C90678524107CA0005A0116 /* swiftgen.yml */ = {isa = PBXFileReference; explicitFileType = text.yaml; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = swiftgen.yml; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
 		4CC27C5A23F4C1A7004F4676 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +58,7 @@
 		4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4CC27C6223F4C1A7004F4676 /* Roadie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roadie.xcdatamodel; sourceTree = "<group>"; };
 		4CC27C6423F4C1A7004F4676 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		4CC27C6623F4C1AA004F4676 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CC27C6623F4C1AA004F4676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC27C6C23F4C1AA004F4676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CC27C6E23F4C1AA004F4676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CC27C7323F4C1AA004F4676 /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,7 +102,7 @@
 		4C90678724107CC4005A0116 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4CC27C6623F4C1AA004F4676 /* Images.xcassets */,
+				4CC27C6623F4C1AA004F4676 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -196,6 +209,7 @@
 				4CC27C5623F4C1A7004F4676 /* Sources */,
 				4CC27C5723F4C1A7004F4676 /* Frameworks */,
 				4CC27C5823F4C1A7004F4676 /* Resources */,
+				4C8892EF242A7D6A005A0B5F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,9 +262,10 @@
 		4CC27C5223F4C1A7004F4676 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RD;
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Michael Johnson";
+				ORGANIZATIONNAME = "Roadie Class Team";
 				TargetAttributes = {
 					4CC27C5923F4C1A7004F4676 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -266,7 +281,7 @@
 				};
 			};
 			buildConfigurationList = 4CC27C5523F4C1A7004F4676 /* Build configuration list for PBXProject "Roadie" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -291,7 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC27C6D23F4C1AA004F4676 /* LaunchScreen.storyboard in Resources */,
-				4CC27C6723F4C1AA004F4676 /* Images.xcassets in Resources */,
+				4CC27C6723F4C1AA004F4676 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
