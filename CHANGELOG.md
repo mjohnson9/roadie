@@ -1,3 +1,10 @@
+### [1.1.1](https://github.com/mjohnson9/roadie_ios/compare/v1.1.0...v1.1.1) (2020-03-24)
+
+
+### Bug Fixes
+
+* **swiftgen:** renaming the input of swiftgen to match asset rename ([be28e13](https://github.com/mjohnson9/roadie_ios/commit/be28e136f03aeaef666f00541ab60d6702074e36))
+
 ## [1.1.0](https://github.com/mjohnson9/roadie_ios/compare/v1.0.0...v1.1.0) (2020-03-24)
 
 
