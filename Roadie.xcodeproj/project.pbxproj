@@ -52,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C889315242A842D005A0B5F /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text.yaml; lineEnding = 0; path = .travis.yml; sourceTree = "<group>"; tabWidth = 2; };
 		4C90678524107CA0005A0116 /* swiftgen.yml */ = {isa = PBXFileReference; explicitFileType = text.yaml; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = swiftgen.yml; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
 		4CC27C5A23F4C1A7004F4676 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 		4CC27C5123F4C1A7004F4676 = {
 			isa = PBXGroup;
 			children = (
+				4C889315242A842D005A0B5F /* .travis.yml */,
 				4CC27C5C23F4C1A7004F4676 /* iOS */,
 				4CC27C7623F4C1AA004F4676 /* iOSTests */,
 				4CC27C8123F4C1AA004F4676 /* iOSUITests */,
