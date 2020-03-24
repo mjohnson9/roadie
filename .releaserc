@@ -8,11 +8,11 @@
 			"changelogFile": "CHANGELOG.md",
 		}],
 		["@semantic-release/exec", {
-			"prepareCmd": "plutil -replace CFBundleVersion -string '${nextRelease.version}' Roadie/Info.plist RoadieTests/Info.plist RoadieUITests/Info.plist; plutil -replace CFBundleShortVersionString -string '${nextRelease.version}' Roadie/Info.plist RoadieTests/Info.plist RoadieUITests/Info.plist"
+			"prepareCmd": "plutil -replace CFBundleVersion -string '${nextRelease.version}' iOS/Info.plist iOSTests/Info.plist iOSUITests/Info.plist; plutil -replace CFBundleShortVersionString -string '${nextRelease.version}' iOS/Info.plist iOSTests/Info.plist iOSUITests/Info.plist"
 		}],
 		["@semantic-release/git", {
-			"assets": ["CHANGELOG.md", "Roadie/Info.plist", "RoadieTests/Info.plist", "RoadieUITests/Info.plist"],
-			"message": "chore(release): bumped to v${nextRelease.version}\n\n${nextRelease.notes}"
+			"assets": ["CHANGELOG.md", "iOS/Info.plist", "iOSTests/Info.plist", "iOSUITests/Info.plist"],
+			"message": "chore(release): bumped version to v${nextRelease.version}\n\n${nextRelease.notes}"
 		}],
 	]
 }
