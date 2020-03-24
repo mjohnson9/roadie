@@ -11,4 +11,4 @@ xcassets:
     Resources/Images.xcassets
   outputs:
     - templateName: swift4
-      output: Generated/assets-images.swift
+      output: Generated/assets.swift
