@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "646722AD-5E42-4D2D-9285-CAB6D8A9B6F9",
+      "name" : "Primary Test Configuration",
+      "options" : {
+        "language" : "en",
+        "locationScenario" : {
+          "identifier" : "New York, NY, USA",
+          "referenceType" : "built-in"
+        },
+        "region" : "US"
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Roadie.xcodeproj",
+        "identifier" : "4CC44C9A242AA1B600513975",
+        "name" : "iosUnitTests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -1,8 +1,15 @@
 os: osx
 osx_image: xcode11.3
-
 language: swift
+
+addons:
+  homebrew:
+    packages:
+    - swiftgen
+    - swiftlint
+    update: true
+
 xcode_project: Roadie.xcodeproj
-xcode_scheme: iOSTests
+xcode_scheme: iOS
 xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone 11 Pro
 

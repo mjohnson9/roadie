@@ -12,9 +12,7 @@
 		4CC27C6323F4C1A7004F4676 /* Roadie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */; };
 		4CC27C6523F4C1A7004F4676 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6423F4C1A7004F4676 /* LoginView.swift */; };
 		4CC27C6723F4C1AA004F4676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6623F4C1AA004F4676 /* Assets.xcassets */; };
-		4CC27C6D23F4C1AA004F4676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */; };
-		4CC27C7823F4C1AA004F4676 /* RoadieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C7723F4C1AA004F4676 /* RoadieTests.swift */; };
-		4CC27C8323F4C1AA004F4676 /* RoadieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C8223F4C1AA004F4676 /* RoadieUITests.swift */; };
+		4CC44C9E242AA1B600513975 /* iosUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC44C9D242AA1B600513975 /* iosUnitTests.swift */; };
 		4CD121CB2425575A00A13643 /* assets-images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD121C92425575A00A13643 /* assets-images.swift */; };
 		4CE8D7622426C31400D2D85E /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8D7612426C31400D2D85E /* LaunchScreen.swift */; };
 		4CECE35323FE01940015100C /* ActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CECE35223FE01940015100C /* ActionButtonStyle.swift */; };
@@ -22,19 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4CC27C7423F4C1AA004F4676 /* PBXContainerItemProxy */ = {
+		4CC44CA0242AA1B600513975 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4CC27C5223F4C1A7004F4676 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4CC27C5923F4C1A7004F4676;
-			remoteInfo = Roadie;
-		};
-		4CC27C7F23F4C1AA004F4676 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CC27C5223F4C1A7004F4676 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CC27C5923F4C1A7004F4676;
-			remoteInfo = Roadie;
+			remoteInfo = iOS;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -62,12 +53,14 @@
 		4CC27C6623F4C1AA004F4676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC27C6C23F4C1AA004F4676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CC27C6E23F4C1AA004F4676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CC27C7323F4C1AA004F4676 /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CC27C7723F4C1AA004F4676 /* RoadieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadieTests.swift; sourceTree = "<group>"; };
-		4CC27C7923F4C1AA004F4676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CC27C7E23F4C1AA004F4676 /* iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CC27C8223F4C1AA004F4676 /* RoadieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadieUITests.swift; sourceTree = "<group>"; };
-		4CC27C8423F4C1AA004F4676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC44C8E242A9E8600513975 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		4CC44C90242AA00100513975 /* .releaserc */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = .releaserc; sourceTree = "<group>"; };
+		4CC44C92242AA00900513975 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4CC44C94242AA01300513975 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		4CC44C96242AA11B00513975 /* iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOS.xctestplan; sourceTree = "<group>"; };
+		4CC44C9B242AA1B600513975 /* iosUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC44C9D242AA1B600513975 /* iosUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosUnitTests.swift; sourceTree = "<group>"; };
+		4CC44C9F242AA1B600513975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD121C92425575A00A13643 /* assets-images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "assets-images.swift"; sourceTree = "<group>"; };
 		4CE8D7612426C31400D2D85E /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		4CECE35223FE01940015100C /* ActionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonStyle.swift; sourceTree = "<group>"; };
@@ -83,14 +76,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CC27C7023F4C1AA004F4676 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CC27C7B23F4C1AA004F4676 /* Frameworks */ = {
+		4CC44C98242AA1B600513975 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -111,10 +97,12 @@
 		4CC27C5123F4C1A7004F4676 = {
 			isa = PBXGroup;
 			children = (
+				4CC44C92242AA00900513975 /* .gitignore */,
 				4C889315242A842D005A0B5F /* .travis.yml */,
+				4CC44C90242AA00100513975 /* .releaserc */,
+				4CC44C94242AA01300513975 /* CHANGELOG.md */,
 				4CC27C5C23F4C1A7004F4676 /* iOS */,
-				4CC27C7623F4C1AA004F4676 /* iOSTests */,
-				4CC27C8123F4C1AA004F4676 /* iOSUITests */,
+				4CC44C9C242AA1B600513975 /* iosUnitTests */,
 				4CC27C5B23F4C1A7004F4676 /* Products */,
 				4CE6687624073CCF00D175D3 /* Frameworks */,
 			);
@@ -124,8 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				4CC27C5A23F4C1A7004F4676 /* iOS.app */,
-				4CC27C7323F4C1AA004F4676 /* iOSTests.xctest */,
-				4CC27C7E23F4C1AA004F4676 /* iOSUITests.xctest */,
+				4CC44C9B242AA1B600513975 /* iosUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,31 +124,15 @@
 				4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */,
 				4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */,
 				4C90678724107CC4005A0116 /* Resources */,
+				4CC44C8E242A9E8600513975 /* Preview Content */,
 				4CC27C6E23F4C1AA004F4676 /* Info.plist */,
+				4CC44C96242AA11B00513975 /* iOS.xctestplan */,
 				4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */,
 				4CECE35423FE06550015100C /* Things to do.md */,
 				4C90678524107CA0005A0116 /* swiftgen.yml */,
 				4CD121C82425573F00A13643 /* Generated */,
 			);
 			path = iOS;
-			sourceTree = "<group>";
-		};
-		4CC27C7623F4C1AA004F4676 /* iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				4CC27C7723F4C1AA004F4676 /* RoadieTests.swift */,
-				4CC27C7923F4C1AA004F4676 /* Info.plist */,
-			);
-			path = iOSTests;
-			sourceTree = "<group>";
-		};
-		4CC27C8123F4C1AA004F4676 /* iOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4CC27C8223F4C1AA004F4676 /* RoadieUITests.swift */,
-				4CC27C8423F4C1AA004F4676 /* Info.plist */,
-			);
-			path = iOSUITests;
 			sourceTree = "<group>";
 		};
 		4CC27C9023F4C3F2004F4676 /* Views */ = {
@@ -174,6 +145,15 @@
 				4CECE35523FE06CC0015100C /* SignUpView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4CC44C9C242AA1B600513975 /* iosUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CC44C9D242AA1B600513975 /* iosUnitTests.swift */,
+				4CC44C9F242AA1B600513975 /* Info.plist */,
+			);
+			path = iosUnitTests;
 			sourceTree = "<group>";
 		};
 		4CD121C82425573F00A13643 /* Generated */ = {
@@ -222,41 +202,23 @@
 			productReference = 4CC27C5A23F4C1A7004F4676 /* iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4CC27C7223F4C1AA004F4676 /* iOSTests */ = {
+		4CC44C9A242AA1B600513975 /* iosUnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CC27C8A23F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "iOSTests" */;
+			buildConfigurationList = 4CC44CA2242AA1B600513975 /* Build configuration list for PBXNativeTarget "iosUnitTests" */;
 			buildPhases = (
-				4CC27C6F23F4C1AA004F4676 /* Sources */,
-				4CC27C7023F4C1AA004F4676 /* Frameworks */,
-				4CC27C7123F4C1AA004F4676 /* Resources */,
+				4CC44C97242AA1B600513975 /* Sources */,
+				4CC44C98242AA1B600513975 /* Frameworks */,
+				4CC44C99242AA1B600513975 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4CC27C7523F4C1AA004F4676 /* PBXTargetDependency */,
+				4CC44CA1242AA1B600513975 /* PBXTargetDependency */,
 			);
-			name = iOSTests;
-			productName = RoadieTests;
-			productReference = 4CC27C7323F4C1AA004F4676 /* iOSTests.xctest */;
+			name = iosUnitTests;
+			productName = iosUnitTests;
+			productReference = 4CC44C9B242AA1B600513975 /* iosUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4CC27C7D23F4C1AA004F4676 /* iOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CC27C8D23F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "iOSUITests" */;
-			buildPhases = (
-				4CC27C7A23F4C1AA004F4676 /* Sources */,
-				4CC27C7B23F4C1AA004F4676 /* Frameworks */,
-				4CC27C7C23F4C1AA004F4676 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4CC27C8023F4C1AA004F4676 /* PBXTargetDependency */,
-			);
-			name = iOSUITests;
-			productName = RoadieUITests;
-			productReference = 4CC27C7E23F4C1AA004F4676 /* iOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -265,19 +227,15 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = RD;
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Roadie Class Team";
 				TargetAttributes = {
 					4CC27C5923F4C1A7004F4676 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					4CC27C7223F4C1AA004F4676 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 4CC27C5923F4C1A7004F4676;
-					};
-					4CC27C7D23F4C1AA004F4676 = {
-						CreatedOnToolsVersion = 11.3.1;
+					4CC44C9A242AA1B600513975 = {
+						CreatedOnToolsVersion = 11.4;
 						TestTargetID = 4CC27C5923F4C1A7004F4676;
 					};
 				};
@@ -296,8 +254,7 @@
 			projectRoot = "";
 			targets = (
 				4CC27C5923F4C1A7004F4676 /* iOS */,
-				4CC27C7223F4C1AA004F4676 /* iOSTests */,
-				4CC27C7D23F4C1AA004F4676 /* iOSUITests */,
+				4CC44C9A242AA1B600513975 /* iosUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -307,19 +264,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC27C6D23F4C1AA004F4676 /* LaunchScreen.storyboard in Resources */,
 				4CC27C6723F4C1AA004F4676 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CC27C7123F4C1AA004F4676 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CC27C7C23F4C1AA004F4676 /* Resources */ = {
+		4CC44C99242AA1B600513975 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,7 +294,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "exec \"$PROJECT_DIR\"/swiftgen/bin/swiftgen config run --config \"$PROJECT_DIR\"/\"$TARGET_NAME\"/swiftgen.yml\n";
+			shellScript = "if which swiftgen >/dev/null; then\n    exec swiftgen config run --config \"$PROJECT_DIR\"/\"$TARGET_NAME\"/swiftgen.yml\nelse\n    echo \"error: SwiftGen not installed, download from https://github.com/SwiftGen/SwiftGen\"\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		4C90678D24108DCE005A0116 /* Run swiftlint */ = {
@@ -385,34 +334,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CC27C6F23F4C1AA004F4676 /* Sources */ = {
+		4CC44C97242AA1B600513975 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC27C7823F4C1AA004F4676 /* RoadieTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CC27C7A23F4C1AA004F4676 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CC27C8323F4C1AA004F4676 /* RoadieUITests.swift in Sources */,
+				4CC44C9E242AA1B600513975 /* iosUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4CC27C7523F4C1AA004F4676 /* PBXTargetDependency */ = {
+		4CC44CA1242AA1B600513975 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4CC27C5923F4C1A7004F4676 /* iOS */;
-			targetProxy = 4CC27C7423F4C1AA004F4676 /* PBXContainerItemProxy */;
-		};
-		4CC27C8023F4C1AA004F4676 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4CC27C5923F4C1A7004F4676 /* iOS */;
-			targetProxy = 4CC27C7F23F4C1AA004F4676 /* PBXContainerItemProxy */;
+			targetProxy = 4CC44CA0242AA1B600513975 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -582,21 +518,20 @@
 			};
 			name = Release;
 		};
-		4CC27C8B23F4C1AA004F4676 /* Debug */ = {
+		4CC44CA3242AA1B600513975 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WW5885E694;
-				INFOPLIST_FILE = RoadieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				INFOPLIST_FILE = iosUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = roadie.RoadieTests;
+				PRODUCT_BUNDLE_IDENTIFIER = roadie.iosUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -604,65 +539,24 @@
 			};
 			name = Debug;
 		};
-		4CC27C8C23F4C1AA004F4676 /* Release */ = {
+		4CC44CA4242AA1B600513975 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WW5885E694;
-				INFOPLIST_FILE = RoadieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				INFOPLIST_FILE = iosUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = roadie.RoadieTests;
+				PRODUCT_BUNDLE_IDENTIFIER = roadie.iosUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
-			};
-			name = Release;
-		};
-		4CC27C8E23F4C1AA004F4676 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WW5885E694;
-				INFOPLIST_FILE = RoadieUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = roadie.RoadieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Roadie;
-			};
-			name = Debug;
-		};
-		4CC27C8F23F4C1AA004F4676 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WW5885E694;
-				INFOPLIST_FILE = RoadieUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = roadie.RoadieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Roadie;
 			};
 			name = Release;
 		};
@@ -687,20 +581,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CC27C8A23F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "iOSTests" */ = {
+		4CC44CA2242AA1B600513975 /* Build configuration list for PBXNativeTarget "iosUnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CC27C8B23F4C1AA004F4676 /* Debug */,
-				4CC27C8C23F4C1AA004F4676 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CC27C8D23F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "iOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CC27C8E23F4C1AA004F4676 /* Debug */,
-				4CC27C8F23F4C1AA004F4676 /* Release */,
+				4CC44CA3242AA1B600513975 /* Debug */,
+				4CC44CA4242AA1B600513975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
