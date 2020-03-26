@@ -1,3 +1,10 @@
+### [1.1.2](https://github.com/mjohnson9/roadie_ios/compare/v1.1.1...v1.1.2) (2020-03-26)
+
+
+### Bug Fixes
+
+* change where the project looks for generated files ([523d2a8](https://github.com/mjohnson9/roadie_ios/commit/523d2a8976564c5e19cafebf83e15fa5adea36c1))
+
 ### [1.1.1](https://github.com/mjohnson9/roadie_ios/compare/v1.1.0...v1.1.1) (2020-03-24)
 
 
