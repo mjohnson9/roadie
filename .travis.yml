@@ -7,7 +7,6 @@ addons:
     packages:
     - swiftgen
     - swiftlint
-    update: true
 
 xcode_project: Roadie.xcodeproj
 xcode_scheme: iOS
