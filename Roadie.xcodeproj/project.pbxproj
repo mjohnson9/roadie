@@ -10,7 +10,6 @@
 		4C4B9908242C1F4800D80C43 /* assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B9907242C1F4800D80C43 /* assets.swift */; };
 		4C659C94242E690F004EAC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */; };
 		4C659C95242E6928004EAC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6623F4C1AA004F4676 /* Assets.xcassets */; };
-		4C659C97242E6A40004EAC02 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4C659C96242E6A40004EAC02 /* .swiftlint.yml */; };
 		4CC27C5E23F4C1A7004F4676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */; };
 		4CC27C6023F4C1A7004F4676 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */; };
 		4CC27C6323F4C1A7004F4676 /* Roadie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */; };
@@ -269,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C659C97242E6A40004EAC02 /* .swiftlint.yml in Resources */,
 				4C659C95242E6928004EAC02 /* Assets.xcassets in Resources */,
 				4C659C94242E690F004EAC02 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -317,6 +315,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(PROJECT_DIR)/$(TARGET_NAME)/Generated/assets.swift",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
