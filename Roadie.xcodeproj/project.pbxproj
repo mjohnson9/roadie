@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4C4B9908242C1F4800D80C43 /* assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B9907242C1F4800D80C43 /* assets.swift */; };
+		4C659C94242E690F004EAC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */; };
+		4C659C95242E6928004EAC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6623F4C1AA004F4676 /* Assets.xcassets */; };
+		4C659C97242E6A40004EAC02 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4C659C96242E6A40004EAC02 /* .swiftlint.yml */; };
 		4CC27C5E23F4C1A7004F4676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */; };
 		4CC27C6023F4C1A7004F4676 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */; };
 		4CC27C6323F4C1A7004F4676 /* Roadie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */; };
 		4CC27C6523F4C1A7004F4676 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6423F4C1A7004F4676 /* LoginView.swift */; };
-		4CC27C6723F4C1AA004F4676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6623F4C1AA004F4676 /* Assets.xcassets */; };
 		4CC44C9E242AA1B600513975 /* iosUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC44C9D242AA1B600513975 /* iosUnitTests.swift */; };
 		4CE8D7622426C31400D2D85E /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8D7612426C31400D2D85E /* LaunchScreen.swift */; };
 		4CECE35323FE01940015100C /* ActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CECE35223FE01940015100C /* ActionButtonStyle.swift */; };
@@ -44,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		4C4B9907242C1F4800D80C43 /* assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assets.swift; sourceTree = "<group>"; };
+		4C659C96242E6A40004EAC02 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text.yaml; lineEnding = 0; path = .swiftlint.yml; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
 		4C889315242A842D005A0B5F /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text.yaml; lineEnding = 0; path = .travis.yml; sourceTree = "<group>"; tabWidth = 2; };
 		4C90678524107CA0005A0116 /* swiftgen.yml */ = {isa = PBXFileReference; explicitFileType = text.yaml; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = swiftgen.yml; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
 		4CC27C5A23F4C1A7004F4676 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +100,7 @@
 		4CC27C5123F4C1A7004F4676 = {
 			isa = PBXGroup;
 			children = (
+				4C659C96242E6A40004EAC02 /* .swiftlint.yml */,
 				4CC44C92242AA00900513975 /* .gitignore */,
 				4C889315242A842D005A0B5F /* .travis.yml */,
 				4CC44C90242AA00100513975 /* .releaserc */,
@@ -186,8 +190,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CC27C8723F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "iOS" */;
 			buildPhases = (
-				4C90678D24108DCE005A0116 /* Run swiftlint */,
-				4C90678A24108164005A0116 /* Generate SwiftUI Assets from xcassets */,
+				4C90678D24108DCE005A0116 /* swiftlint */,
+				4C90678A24108164005A0116 /* SwiftGen */,
 				4CC27C5623F4C1A7004F4676 /* Sources */,
 				4CC27C5723F4C1A7004F4676 /* Frameworks */,
 				4CC27C5823F4C1A7004F4676 /* Resources */,
@@ -206,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CC44CA2242AA1B600513975 /* Build configuration list for PBXNativeTarget "iosUnitTests" */;
 			buildPhases = (
+				4C659C93242E6869004EAC02 /* swiftlint */,
 				4CC44C97242AA1B600513975 /* Sources */,
 				4CC44C98242AA1B600513975 /* Frameworks */,
 				4CC44C99242AA1B600513975 /* Resources */,
@@ -264,7 +269,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC27C6723F4C1AA004F4676 /* Assets.xcassets in Resources */,
+				4C659C97242E6A40004EAC02 /* .swiftlint.yml in Resources */,
+				4C659C95242E6928004EAC02 /* Assets.xcassets in Resources */,
+				4C659C94242E690F004EAC02 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +285,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4C90678A24108164005A0116 /* Generate SwiftUI Assets from xcassets */ = {
+		4C659C93242E6869004EAC02 /* swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,17 +294,17 @@
 			);
 			inputPaths = (
 			);
-			name = "Generate SwiftUI Assets from xcassets";
+			name = swiftlint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftgen >/dev/null; then\n    exec swiftgen config run --config \"$PROJECT_DIR\"/\"$TARGET_NAME\"/swiftgen.yml\nelse\n    echo \"error: SwiftGen not installed, download from https://github.com/SwiftGen/SwiftGen\"\n    exit 1\nfi\n";
+			shellScript = "if which swiftlint >/dev/null; then\n    cd \"${PROJECT_DIR}\"/\"${TARGET_NAME}\"\n    swiftlint\nelse\n    echo \"error: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		4C90678D24108DCE005A0116 /* Run swiftlint */ = {
+		4C90678A24108164005A0116 /* SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,14 +313,33 @@
 			);
 			inputPaths = (
 			);
-			name = "Run swiftlint";
+			name = SwiftGen;
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"error: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
+			shellScript = "if [ -x \"${PROJECT_DIR}\"/swiftgen/bin/swiftgen ]; then\n    exec \"${PROJECT_DIR}\"/swiftgen/bin/swiftgen config run --config \"${PROJECT_DIR}\"/\"${TARGET_NAME}\"/swiftgen.yml\nelse\n    if which swiftgen >/dev/null; then\n        exec swiftgen config run --config \"${PROJECT_DIR}\"/\"${TARGET_NAME}\"/swiftgen.yml\n    else\n        echo \"error: SwiftGen not installed, download from https://github.com/SwiftGen/SwiftGen\"\n        exit 1\n    fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C90678D24108DCE005A0116 /* swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    cd \"${PROJECT_DIR}\"/\"${TARGET_NAME}\"\n    swiftlint\nelse\n    echo \"error: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
