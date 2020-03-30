@@ -11,6 +11,7 @@
 		4C659C94242E690F004EAC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */; };
 		4C659C95242E6928004EAC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6623F4C1AA004F4676 /* Assets.xcassets */; };
 		4C93963024321CA500306868 /* cncurses in Resources */ = {isa = PBXBuildFile; fileRef = 4C93962F24321CA500306868 /* cncurses */; };
+		4C9396322432212B00306868 /* RDFakeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9396312432212B00306868 /* RDFakeTest.swift */; };
 		4CC27C5E23F4C1A7004F4676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */; };
 		4CC27C6023F4C1A7004F4676 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */; };
 		4CC27C6323F4C1A7004F4676 /* Roadie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */; };
@@ -49,6 +50,7 @@
 		4C889315242A842D005A0B5F /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text.yaml; lineEnding = 0; path = .travis.yml; sourceTree = "<group>"; tabWidth = 2; };
 		4C90678524107CA0005A0116 /* swiftgen.yml */ = {isa = PBXFileReference; explicitFileType = text.yaml; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = swiftgen.yml; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
 		4C93962F24321CA500306868 /* cncurses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cncurses; sourceTree = "<group>"; };
+		4C9396312432212B00306868 /* RDFakeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDFakeTest.swift; sourceTree = "<group>"; };
 		4CC27C5A23F4C1A7004F4676 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				4CC44C9F242AA1B600513975 /* Info.plist */,
+				4C9396312432212B00306868 /* RDFakeTest.swift */,
 			);
 			path = iosUnitTests;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 					};
 					4CC44C9A242AA1B600513975 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 						TestTargetID = 4CC27C5923F4C1A7004F4676;
 					};
 				};
@@ -368,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9396322432212B00306868 /* RDFakeTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WW5885E694;
 				INFOPLIST_FILE = iosUnitTests/Info.plist;
@@ -564,6 +570,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = roadie.iosUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
@@ -574,6 +581,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WW5885E694;
 				INFOPLIST_FILE = iosUnitTests/Info.plist;
