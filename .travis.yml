@@ -23,11 +23,10 @@ jobs:
       deploy:
         provider: script
         skip_cleanup: true
-        before_script:
-          - export NVM_DIR="$HOME/.nvm"
-          - [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
         script:
           # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
+          - export NVM_DIR="$HOME/.nvm"
+          - [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
           - nvm install lts/*
           - npx semantic-release
         on:
