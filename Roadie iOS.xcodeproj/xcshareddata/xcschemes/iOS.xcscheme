@@ -17,7 +17,7 @@
                BlueprintIdentifier = "4CC27C5923F4C1A7004F4676"
                BuildableName = "iOS.app"
                BlueprintName = "iOS"
-               ReferencedContainer = "container:Roadie.xcodeproj">
+               ReferencedContainer = "container:Roadie iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,7 +29,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:iOS/iOS.xctestplan"
+            reference = "container:Roadie/iOS.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
@@ -42,7 +42,7 @@
                BlueprintIdentifier = "4CC27C7223F4C1AA004F4676"
                BuildableName = "iOSTests.xctest"
                BlueprintName = "iOSTests"
-               ReferencedContainer = "container:Roadie.xcodeproj">
+               ReferencedContainer = "container:Roadie iOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -53,7 +53,7 @@
                BlueprintIdentifier = "4CC27C7D23F4C1AA004F4676"
                BuildableName = "iOSUITests.xctest"
                BlueprintName = "iOSUITests"
-               ReferencedContainer = "container:Roadie.xcodeproj">
+               ReferencedContainer = "container:Roadie iOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -63,7 +63,7 @@
                BlueprintIdentifier = "4CC44C9A242AA1B600513975"
                BuildableName = "iOSTests.xctest"
                BlueprintName = "iOSTests"
-               ReferencedContainer = "container:Roadie.xcodeproj">
+               ReferencedContainer = "container:Roadie iOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -85,7 +85,7 @@
             BlueprintIdentifier = "4CC27C5923F4C1A7004F4676"
             BuildableName = "iOS.app"
             BlueprintName = "iOS"
-            ReferencedContainer = "container:Roadie.xcodeproj">
+            ReferencedContainer = "container:Roadie iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -102,7 +102,7 @@
             BlueprintIdentifier = "4CC27C5923F4C1A7004F4676"
             BuildableName = "iOS.app"
             BlueprintName = "iOS"
-            ReferencedContainer = "container:Roadie.xcodeproj">
+            ReferencedContainer = "container:Roadie iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

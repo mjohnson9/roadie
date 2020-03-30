@@ -108,8 +108,8 @@
 				4C889315242A842D005A0B5F /* .travis.yml */,
 				4CC44C90242AA00100513975 /* .releaserc */,
 				4CC44C94242AA01300513975 /* CHANGELOG.md */,
-				4CC27C5C23F4C1A7004F4676 /* iOS */,
-				4CC44C9C242AA1B600513975 /* iOSTests */,
+				4CC27C5C23F4C1A7004F4676 /* Roadie */,
+				4CC44C9C242AA1B600513975 /* RoadieTests */,
 				4CC27C5B23F4C1A7004F4676 /* Products */,
 				4CE6687624073CCF00D175D3 /* Frameworks */,
 			);
@@ -124,7 +124,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4CC27C5C23F4C1A7004F4676 /* iOS */ = {
+		4CC27C5C23F4C1A7004F4676 /* Roadie */ = {
 			isa = PBXGroup;
 			children = (
 				4CC27C9023F4C3F2004F4676 /* Views */,
@@ -139,7 +139,7 @@
 				4C90678524107CA0005A0116 /* swiftgen.yml */,
 				4CD121C82425573F00A13643 /* Generated */,
 			);
-			path = iOS;
+			path = Roadie;
 			sourceTree = "<group>";
 		};
 		4CC27C9023F4C3F2004F4676 /* Views */ = {
@@ -154,13 +154,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		4CC44C9C242AA1B600513975 /* iOSTests */ = {
+		4CC44C9C242AA1B600513975 /* RoadieTests */ = {
 			isa = PBXGroup;
 			children = (
 				4CC44C9F242AA1B600513975 /* Info.plist */,
 				4C9396312432212B00306868 /* RDFakeTest.swift */,
 			);
-			path = iOSTests;
+			path = RoadieTests;
 			sourceTree = "<group>";
 		};
 		4CD121C82425573F00A13643 /* Generated */ = {
@@ -250,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4CC27C5523F4C1A7004F4676 /* Build configuration list for PBXProject "Roadie" */;
+			buildConfigurationList = 4CC27C5523F4C1A7004F4676 /* Build configuration list for PBXProject "Roadie iOS" */;
 			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -602,7 +602,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CC27C5523F4C1A7004F4676 /* Build configuration list for PBXProject "Roadie" */ = {
+		4CC27C5523F4C1A7004F4676 /* Build configuration list for PBXProject "Roadie iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CC27C8523F4C1AA004F4676 /* Debug */,
