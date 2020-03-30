@@ -15,18 +15,11 @@ xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone 11 Pro
 
 jobs:
   include:
-    # Define the release stage that runs semantic-release
-    - stage: release
-      # Advanced: optionally overwrite your default `script` step to skip the tests
-      # script:
-      #   - make
+    - stage: releasee
       deploy:
         provider: script
         skip_cleanup: true
         script:
-          # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
-          - export NVM_DIR="$HOME/.nvm"
-          - [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
           - nvm install lts/*
           - npx semantic-release
         on:
