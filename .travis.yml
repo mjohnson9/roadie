@@ -31,5 +31,5 @@ jobs:
           all_branches: true
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -J 'iOS'
+  - bash <(curl -s https://codecov.io/bash) -J 'Roadie'
 
