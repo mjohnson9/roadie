@@ -51,7 +51,7 @@
 		4C90678524107CA0005A0116 /* swiftgen.yml */ = {isa = PBXFileReference; explicitFileType = text.yaml; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = swiftgen.yml; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
 		4C93962F24321CA500306868 /* cncurses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cncurses; sourceTree = "<group>"; };
 		4C9396312432212B00306868 /* RDFakeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDFakeTest.swift; sourceTree = "<group>"; };
-		4CC27C5A23F4C1A7004F4676 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC27C5A23F4C1A7004F4676 /* Roadie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roadie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4CC27C6223F4C1A7004F4676 /* Roadie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roadie.xcdatamodel; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		4CC44C92242AA00900513975 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		4CC44C94242AA01300513975 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		4CC44C96242AA11B00513975 /* iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOS.xctestplan; sourceTree = "<group>"; };
-		4CC44C9B242AA1B600513975 /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC44C9B242AA1B600513975 /* RoadieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC44C9F242AA1B600513975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CCDBF6E24320ECF00BD5BFF /* Dangerfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dangerfile.swift; sourceTree = "<group>"; };
 		4CE8D7612426C31400D2D85E /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
@@ -118,8 +118,8 @@
 		4CC27C5B23F4C1A7004F4676 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CC27C5A23F4C1A7004F4676 /* iOS.app */,
-				4CC44C9B242AA1B600513975 /* iOSTests.xctest */,
+				4CC27C5A23F4C1A7004F4676 /* Roadie.app */,
+				4CC44C9B242AA1B600513975 /* RoadieTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,9 +190,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4CC27C5923F4C1A7004F4676 /* iOS */ = {
+		4CC27C5923F4C1A7004F4676 /* Roadie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CC27C8723F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildConfigurationList = 4CC27C8723F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "Roadie" */;
 			buildPhases = (
 				4C90678D24108DCE005A0116 /* swiftlint */,
 				4C90678A24108164005A0116 /* SwiftGen */,
@@ -205,14 +205,14 @@
 			);
 			dependencies = (
 			);
-			name = iOS;
+			name = Roadie;
 			productName = Roadie;
-			productReference = 4CC27C5A23F4C1A7004F4676 /* iOS.app */;
+			productReference = 4CC27C5A23F4C1A7004F4676 /* Roadie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4CC44C9A242AA1B600513975 /* iOSTests */ = {
+		4CC44C9A242AA1B600513975 /* RoadieTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CC44CA2242AA1B600513975 /* Build configuration list for PBXNativeTarget "iOSTests" */;
+			buildConfigurationList = 4CC44CA2242AA1B600513975 /* Build configuration list for PBXNativeTarget "RoadieTests" */;
 			buildPhases = (
 				4C659C93242E6869004EAC02 /* swiftlint */,
 				4CC44C97242AA1B600513975 /* Sources */,
@@ -224,9 +224,9 @@
 			dependencies = (
 				4CC44CA1242AA1B600513975 /* PBXTargetDependency */,
 			);
-			name = iOSTests;
+			name = RoadieTests;
 			productName = iosUnitTests;
-			productReference = 4CC44C9B242AA1B600513975 /* iOSTests.xctest */;
+			productReference = 4CC44C9B242AA1B600513975 /* RoadieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -263,8 +263,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4CC27C5923F4C1A7004F4676 /* iOS */,
-				4CC44C9A242AA1B600513975 /* iOSTests */,
+				4CC27C5923F4C1A7004F4676 /* Roadie */,
+				4CC44C9A242AA1B600513975 /* RoadieTests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,7 +306,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    cd \"${PROJECT_DIR}\"/\"${TARGET_NAME}\"\n    swiftlint\nelse\n    echo \"error: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
+			shellScript = "if which swiftlint >/dev/null; then\n    cd \"${PROJECT_DIR}\"/\"${TARGET_NAME}\"\n    exec swiftlint lint --config \"${PROJECT_DIR}\"/.swiftlint.yml\nelse\n    echo \"error: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		4C90678A24108164005A0116 /* SwiftGen */ = {
@@ -381,7 +381,7 @@
 /* Begin PBXTargetDependency section */
 		4CC44CA1242AA1B600513975 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4CC27C5923F4C1A7004F4676 /* iOS */;
+			target = 4CC27C5923F4C1A7004F4676 /* Roadie */;
 			targetProxy = 4CC44CA0242AA1B600513975 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -519,10 +519,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(TARGET_NAME)/Preview Content\"";
 				DEVELOPMENT_TEAM = WW5885E694;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/$(TARGET_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,10 +539,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(TARGET_NAME)/Preview Content\"";
 				DEVELOPMENT_TEAM = WW5885E694;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/$(TARGET_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -561,19 +561,19 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WW5885E694;
-				INFOPLIST_FILE = iOSTests/Info.plist;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = roadie.iOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = roadie.RoadieTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roadie.app/Roadie";
 			};
 			name = Debug;
 		};
@@ -584,18 +584,18 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WW5885E694;
-				INFOPLIST_FILE = iOSTests/Info.plist;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = roadie.iOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = roadie.RoadieTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roadie.app/Roadie";
 			};
 			name = Release;
 		};
@@ -611,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CC27C8723F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+		4CC27C8723F4C1AA004F4676 /* Build configuration list for PBXNativeTarget "Roadie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CC27C8823F4C1AA004F4676 /* Debug */,
@@ -620,7 +620,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CC44CA2242AA1B600513975 /* Build configuration list for PBXNativeTarget "iOSTests" */ = {
+		4CC44CA2242AA1B600513975 /* Build configuration list for PBXNativeTarget "RoadieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CC44CA3242AA1B600513975 /* Debug */,

@@ -20,9 +20,9 @@
     {
       "parallelizable" : true,
       "target" : {
-        "containerPath" : "container:Roadie.xcodeproj",
+        "containerPath" : "container:Roadie iOS.xcodeproj",
         "identifier" : "4CC44C9A242AA1B600513975",
-        "name" : "iosUnitTests"
+        "name" : "RoadieTests"
       }
     }
   ],
