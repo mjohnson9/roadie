@@ -10,11 +10,11 @@
 		4C4B9908242C1F4800D80C43 /* assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B9907242C1F4800D80C43 /* assets.swift */; };
 		4C659C94242E690F004EAC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6B23F4C1AA004F4676 /* LaunchScreen.storyboard */; };
 		4C659C95242E6928004EAC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC27C6623F4C1AA004F4676 /* Assets.xcassets */; };
+		4C93963024321CA500306868 /* cncurses in Resources */ = {isa = PBXBuildFile; fileRef = 4C93962F24321CA500306868 /* cncurses */; };
 		4CC27C5E23F4C1A7004F4676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */; };
 		4CC27C6023F4C1A7004F4676 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */; };
 		4CC27C6323F4C1A7004F4676 /* Roadie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6123F4C1A7004F4676 /* Roadie.xcdatamodeld */; };
 		4CC27C6523F4C1A7004F4676 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC27C6423F4C1A7004F4676 /* LoginView.swift */; };
-		4CC44C9E242AA1B600513975 /* iosUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC44C9D242AA1B600513975 /* iosUnitTests.swift */; };
 		4CE8D7622426C31400D2D85E /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8D7612426C31400D2D85E /* LaunchScreen.swift */; };
 		4CECE35323FE01940015100C /* ActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CECE35223FE01940015100C /* ActionButtonStyle.swift */; };
 		4CECE35623FE06CC0015100C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CECE35523FE06CC0015100C /* SignUpView.swift */; };
@@ -48,6 +48,7 @@
 		4C659C96242E6A40004EAC02 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text.yaml; lineEnding = 0; path = .swiftlint.yml; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
 		4C889315242A842D005A0B5F /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text.yaml; lineEnding = 0; path = .travis.yml; sourceTree = "<group>"; tabWidth = 2; };
 		4C90678524107CA0005A0116 /* swiftgen.yml */ = {isa = PBXFileReference; explicitFileType = text.yaml; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = swiftgen.yml; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
+		4C93962F24321CA500306868 /* cncurses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cncurses; sourceTree = "<group>"; };
 		4CC27C5A23F4C1A7004F4676 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CC27C5F23F4C1A7004F4676 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,8 +63,8 @@
 		4CC44C94242AA01300513975 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		4CC44C96242AA11B00513975 /* iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOS.xctestplan; sourceTree = "<group>"; };
 		4CC44C9B242AA1B600513975 /* iosUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CC44C9D242AA1B600513975 /* iosUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosUnitTests.swift; sourceTree = "<group>"; };
 		4CC44C9F242AA1B600513975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCDBF6E24320ECF00BD5BFF /* Dangerfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dangerfile.swift; sourceTree = "<group>"; };
 		4CE8D7612426C31400D2D85E /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		4CECE35223FE01940015100C /* ActionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonStyle.swift; sourceTree = "<group>"; };
 		4CECE35423FE06550015100C /* Things to do.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Things to do.md"; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 		4CC27C5123F4C1A7004F4676 = {
 			isa = PBXGroup;
 			children = (
+				4CCDBF6E24320ECF00BD5BFF /* Dangerfile.swift */,
 				4C659C96242E6A40004EAC02 /* .swiftlint.yml */,
 				4CC44C92242AA00900513975 /* .gitignore */,
 				4C889315242A842D005A0B5F /* .travis.yml */,
@@ -153,7 +155,6 @@
 		4CC44C9C242AA1B600513975 /* iosUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				4CC44C9D242AA1B600513975 /* iosUnitTests.swift */,
 				4CC44C9F242AA1B600513975 /* Info.plist */,
 			);
 			path = iosUnitTests;
@@ -170,6 +171,7 @@
 		4CE6687624073CCF00D175D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C93962F24321CA500306868 /* cncurses */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -269,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C659C95242E6928004EAC02 /* Assets.xcassets in Resources */,
+				4C93963024321CA500306868 /* cncurses in Resources */,
 				4C659C94242E690F004EAC02 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +313,8 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"$(PROJECT_DIR)/$(TARGET_NAME)/swiftgen.yml",
+				"$(PROJECT_DIR)/$(TARGET_NAME)/Resources/Assets.xcassets",
 			);
 			name = SwiftGen;
 			outputFileListPaths = (
@@ -363,7 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC44C9E242AA1B600513975 /* iosUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +434,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__NCURSES_H=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -487,6 +492,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "__NCURSES_H=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
