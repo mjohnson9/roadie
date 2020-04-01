@@ -15,17 +15,12 @@ xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone 11 Pro
 
 jobs:
   include:
-    - stage: releasee
+    - stage: Release
       deploy:
+        script: skip # don't rerun tests
         provider: script
-        skip_cleanup: true
-        script:
-          - export NVM_DIR="$HOME/.nvm"
-          - source /usr/local/opt/nvm/nvm.sh
-          - nvm install lts/*
-          - npx semantic-release
-        on:
-          all_branches: true
+        script: deploy.sh
+        if: branch = master
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -J 'Roadie'
