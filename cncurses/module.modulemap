@@ -1,5 +1,0 @@
-module cncurses [system] {
-    umbrella header "cncurses.h"
-    link "ncurses"
-    export *
-}

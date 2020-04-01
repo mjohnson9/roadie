@@ -48,7 +48,7 @@
 		4C659C96242E6A40004EAC02 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text.yaml; lineEnding = 0; path = .swiftlint.yml; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
 		4C889315242A842D005A0B5F /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text.yaml; lineEnding = 0; path = .travis.yml; sourceTree = "<group>"; tabWidth = 2; };
 		4C90678524107CA0005A0116 /* swiftgen.yml */ = {isa = PBXFileReference; explicitFileType = text.yaml; fileEncoding = 4; indentWidth = 2; lineEnding = 0; path = swiftgen.yml; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.yaml; };
-		4C93962F24321CA500306868 /* cncurses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cncurses; sourceTree = "<group>"; };
+		4C9300752434DE85007F97A3 /* deploy.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = deploy.sh; sourceTree = "<group>"; };
 		4C9396312432212B00306868 /* RDFakeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDFakeTest.swift; sourceTree = "<group>"; };
 		4CC27C5A23F4C1A7004F4676 /* Roadie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roadie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC27C5D23F4C1A7004F4676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +100,7 @@
 		4CC27C5123F4C1A7004F4676 = {
 			isa = PBXGroup;
 			children = (
+				4C9300752434DE85007F97A3 /* deploy.sh */,
 				4C659C96242E6A40004EAC02 /* .swiftlint.yml */,
 				4CC44C92242AA00900513975 /* .gitignore */,
 				4C889315242A842D005A0B5F /* .travis.yml */,
@@ -171,7 +172,6 @@
 		4CE6687624073CCF00D175D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4C93962F24321CA500306868 /* cncurses */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
