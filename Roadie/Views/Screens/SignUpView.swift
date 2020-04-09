@@ -1,11 +1,3 @@
-//
-//  SignUpView.swift
-//  Roadie
-//
-//  Created by Michael Johnson on 2/19/20.
-//  Copyright © 2020 Michael Johnson. All rights reserved.
-//
-
 import SwiftUI
 
 struct SignUpView: View {

@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Roadie
-//
-//  Created by Michael Johnson on 2/12/20.
-//  Copyright © 2020 Michael Johnson. All rights reserved.
-//
-
 import UIKit
 import SwiftUI
 

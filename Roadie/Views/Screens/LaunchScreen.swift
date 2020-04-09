@@ -1,11 +1,3 @@
-//
-//  LaunchScreen.swift
-//  Roadie
-//
-//  Created by Michael Johnson on 3/21/20.
-//  Copyright © 2020 Michael Johnson. All rights reserved.
-//
-
 import SwiftUI
 
 struct LaunchScreen: View {
