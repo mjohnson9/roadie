@@ -1,3 +1,20 @@
+## [2.0.0](https://github.com/mjohnson9/roadie_ios/compare/v1.1.2...v2.0.0) (2020-04-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* iOS is now Roadie and iOSTests is now RoadieTests
+
+### Features
+
+* lots of changes ([46a03d4](https://github.com/mjohnson9/roadie_ios/commit/46a03d4e6ab7b298045ee32716f0ff46844feac7))
+* **app icon:** added AppIcon ([3bb0018](https://github.com/mjohnson9/roadie_ios/commit/3bb0018cc43112b04a7a6bbedd905da1faa3fb5f))
+
+
+### Code Refactoring
+
+* rename iOS to Roadie ([dabfff2](https://github.com/mjohnson9/roadie_ios/commit/dabfff2131df9b027107cd247677b76ae3b08b43))
+
 ### [1.1.2](https://github.com/mjohnson9/roadie_ios/compare/v1.1.1...v1.1.2) (2020-03-26)
 
 
