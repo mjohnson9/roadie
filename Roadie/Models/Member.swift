@@ -1,6 +1,6 @@
 // if the response from Login returns an array of zero length, the login failed
 
-struct Member: Identifiable {
+struct Member: Codable, Identifiable {
     var id: Int // swiftlint:disable:this identifier_name
 
     var firstName: String
